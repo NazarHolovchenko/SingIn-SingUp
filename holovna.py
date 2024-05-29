@@ -6,6 +6,12 @@ window.title('Головна')
 window.geometry('600x400')
 window.config(bg='#b3b3b3')
 
+#         Логотип
+# photo=PhotoImage(file='logo.ong')
+# root.iconbitmap('logo.ico')
+#         або
+# root.iconbitmap('logo.ico')
+
 top_tx=Label(window,
             text='Стандартні налаштування',
             bg='#737373',
