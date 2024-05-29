@@ -14,9 +14,6 @@ root.geometry('600x500')
 # колір
 root.config(bg='#999999')
 
-# прозорість
-# root.wm_attributes('-alpha',0.7)
-
 #         Логотип
 # photo=PhotoImage(file='logo.ong')
 # root.iconbitmap('logo.ico')
