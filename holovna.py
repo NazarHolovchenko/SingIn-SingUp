@@ -1,152 +1,41 @@
 from tkinter import*
-
 # Вікно другого рівня вкладеності
 window = Tk()
 window.title('Головна')
-window.geometry('600x400')
+window.geometry('1200x800')
 window.config(bg='#b3b3b3')
 
-#         Логотип
-# photo=PhotoImage(file='logo.ong')
-# root.iconbitmap('logo.ico')
-#         або
-# root.iconbitmap('logo.ico')
+
+#window.iconbitmap('hoverla.ico')
+
 
 top_tx=Label(window,
-            text='Стандартні налаштування',
+            text='Говерла – найвища гірська вершина в Україні. \nЗаввишки вона — 2061 м над рівнем моря. \nРозташована в Карпатах, у гірському масиві \nЧорногора, на межі Івано-Франківської та \nЗакарпатської областей. Назва «Говерла» \nпоходить від угорського «hóvár», \nщо означає «снігова гора». ',
             bg='#737373',
             fg='black',
-            font=('Comic Sans MS',20,'bold'),
+            font=('Comic Sans MS',18,'bold'),
             relief=GROOVE,
             bd=1,
-            # width=20,
-            # height=4,
+             width=18,
+             height=4,
             justify=CENTER,
             # anchor=N,
-            # padx=50,
-            # pady=20,
+             #pady=20,
             )
-top_tx.place(x=1,y=1,width=598,height=40)
+top_tx.place(x=1,y=1,width=600,height=400)
 
-top2_tx=Label(window,
-            text='Виберіть команду для редагування',
-            bg='#999999',
-            # bg='green',
+wwww_tx=Label(window,
+            text='Справді, вершина гори вкрита снігом \nмайже завжди;  сніговий покрив тане в \nлипні,й то не завжди. Говерлою гора \nстала через …помилку. Спочатку гуцули \nназивали її «Говирла», але коли \nавстрійські картографи складали мапу \nмісцевості, котрийся з них записав \n«Говерла». Так і лишилося…',
+            bg='#737373',
             fg='black',
-            font=('Arial',24,'bold'),
-            # relief=RAISED,
-            # bd=2,
-            # width=20,
-            # height=4,
+            font=('Comic Sans MS',18,'bold'),
+            relief=GROOVE,
+            bd=1,
+             width=18,
+             
             justify=CENTER,
-            # anchor=N,
-            # padx=50,
-            # pady=20,
             )
-top2_tx.place(x=80,y=42,width=435,height=40)
-
-top3_tx=Label(window,
-            text='Результат виконання',
-            bg='#999999',
-            # bg='green',
-            fg='black',
-            font=('Arial',24,'bold'),
-            # relief=RAISED,
-            # bd=2,
-            # width=20,
-            # height=4,
-            justify=CENTER,
-            # anchor=N,
-            # padx=50,
-            # pady=20,
-            )
-top3_tx.place(x=170,y=245,width=260,height=40)
-
-top4_tx=Label(window,
-            text='- фон',
-            bg='#00ffff',
-            # bg='green',
-            fg='#0066cc',
-            font=('Arial',20,'italic'),
-            # relief=RAISED,
-            # bd=2,
-            # width=20,
-            # height=4,
-            justify=CENTER,
-            # anchor=N,
-            # padx=50,
-            # pady=2,
-            )
-top4_tx.place(x=15,y=300,width=50,height=30)
-
-top5_tx=Label(window,
-            text='- фон',
-            # bg='#999999',
-            bg='green',
-            fg='black',
-            font=('Arial',20,'italic'),
-            # relief=RAISED,
-            # bd=2,
-            # width=20,
-            # height=4,
-            justify=CENTER,
-            # anchor=N,
-            # padx=50,
-            # pady=2,
-            )
-top5_tx.place(x=15,y=300,width=50,height=30)
-
-top6_tx=Label(window,
-            text='- фон',
-            # bg='#999999',
-            bg='green',
-            fg='black',
-            font=('Arial',20,'italic'),
-            # relief=RAISED,
-            # bd=2,
-            # width=20,
-            # height=4,
-            justify=CENTER,
-            # anchor=N,
-            # padx=50,
-            # pady=2,
-            )
-top6_tx.place(x=15,y=300,width=50,height=30)
-
-top7_tx=Label(window,
-            text='- фон',
-            # bg='#999999',
-            bg='green',
-            fg='black',
-            font=('Arial',20,'italic'),
-            # relief=RAISED,
-            # bd=2,
-            # width=20,
-            # height=4,
-            justify=CENTER,
-            # anchor=N,
-            # padx=50,
-            # pady=2,
-            )
-top7_tx.place(x=15,y=300,width=50,height=30)
-
-top8_tx=Label(window,
-            text='- фон',
-            # bg='#999999',
-            bg='green',
-            fg='black',
-            font=('Arial',20,'italic'),
-            # relief=RAISED,
-            # bd=2,
-            # width=20,
-            # height=4,
-            justify=CENTER,
-            # anchor=N,
-            # padx=50,
-            # pady=2,
-            )
-top8_tx.place(x=15,y=300,width=50,height=30)
-
+wwww_tx.place(x=600,y=1,width=600,height=400)
 # кнопки 2-го рівня
 # kn_1=Button(window,
 #             text='Увійти',
