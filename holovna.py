@@ -4,6 +4,7 @@ window = Tk()
 window.title('Головна')
 window.geometry('1200x800')
 window.config(bg='#b3b3b3')
+window.minsize(1200,800)
 
 
 #window.iconbitmap('hoverla.ico')
